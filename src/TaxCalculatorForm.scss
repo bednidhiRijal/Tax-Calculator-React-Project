@@ -1,0 +1,16 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 70rem;
+}
+.col {
+  width: 35rem;
+  flex-basis: 0;
+  flex-shrink: 1;
+  flex-grow: 1;
+  padding: 0.5rem;
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}

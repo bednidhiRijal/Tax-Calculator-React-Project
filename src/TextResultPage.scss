@@ -1,0 +1,46 @@
+@import './scss/abstracts/variables';
+.res-section {
+  margin: 2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.res-title {
+  color: $fontColorPrimary;
+  margin-bottom: 0.6rem;
+}
+.res-area {
+  resize: none;
+  height: 5rem;
+  outline: none;
+  text-align: center;
+  margin-top: 0.4rem;
+  background-color: white;
+  position: relative;
+  border-radius: 1rem;
+  color: $cardColor;
+}
+.res-area div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.breakdown {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+.breakdown-area {
+  display: float;
+  background-color: $cardBgColor;
+  height: 4rem;
+  margin-bottom: 1rem;
+}
+.tax-bracket {
+  margin-left: 1rem;
+  float: left;
+}
+.tax-bracket-result {
+  margin-right: 1rem;
+  float: right;
+  color: #6a5acd;
+}

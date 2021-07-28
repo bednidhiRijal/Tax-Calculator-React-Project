@@ -1,0 +1,23 @@
+@import '../abstracts/variables';
+
+.card-background {
+  background-color: $bgColor;
+  height: 58rem;
+  position: relative;
+  width: 110rem;
+  margin: auto;
+}
+
+.card {
+  background-color: $cardBgColor;
+  position: absolute;
+  top: 5rem;
+  width: 70rem;
+  left: 20rem;
+  height: 49rem;
+  box-shadow: 0 0 5px 3px $bodyColor;
+  border-radius: 1rem;
+}
+.card-inner {
+  width: 70rem;
+}

@@ -1,0 +1,13 @@
+@import './scss/abstracts/variables';
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Lato;
+  font-size: $fontSize;
+}
+
+body {
+  background-color: $bodyColor;
+}
